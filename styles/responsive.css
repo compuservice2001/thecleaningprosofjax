@@ -20,6 +20,19 @@
 13. 400px
 
 ******************************/
+/************
+1. 1740px
+************/
+
+@media only screen and (max-width: 1740px)
+{
+	.contact_info_container
+	{
+		padding-right: 20px;
+	}
+}
+
+
 
 /************
 1. 1600px
@@ -27,7 +40,12 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+	.contact_content
+	{
+		width: 100%;
+		padding-top: 95px;
+		padding-left: 45px;
+	}
 }
 
 /************
@@ -36,7 +54,14 @@
 
 @media only screen and (max-width: 1440px)
 {
-	
+	.contact_info_container
+	{
+		padding-right: 0px;
+	}
+	.contact_info
+	{
+		padding-right: 0;
+	}
 }
 
 /************
@@ -72,6 +97,22 @@
 	.footer_contact_info
 	{
 		padding-right: 0px;
+	}
+
+	.contact_content
+	{
+		padding-left: 107px;
+		padding-right: 107px;
+	}
+	.contact_info_container
+	{
+		padding-top: 0;
+		padding-left: 0;
+		margin-top: 70px;
+	}
+	.contact_map
+	{
+		height: 500px;
 	}
 }
 
@@ -174,6 +215,15 @@
 	.video_container_outer
 	{
 		height: 388px;
+	}
+	.contact_content
+	{
+		padding-left: 57px;
+		padding-right: 57px;
+	}
+	.contact_name_col
+	{
+		margin-bottom: 19px;
 	}
 	.footer_col:not(:last-child)
 	{
@@ -568,6 +618,10 @@
 	.accordion
 	{
 		font-size: 14px;
+	}
+	.contact_map
+	{
+		height: 350px;
 	}
 }
 
