@@ -1838,6 +1838,147 @@ section
 	right: -80px;
 }
 
+
+/*********************************
+ JANITORIAL CLEANING - SERVICES 
+*********************************/
+
+.teachers
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 85px;
+	/* padding-bottom: 101px; */
+}
+.teachers_title
+{
+	font-size: 36px;
+	font-weight: 700;
+	color: #44425a;
+}
+.teachers_row
+{
+	margin-top: 68px;
+}
+.teacher
+{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.teacher_image
+{
+	width: 100%;
+}
+.teacher_image img
+{
+	max-width: 100%;
+}
+.teacher_image a::after
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background: rgba(255,138,0,0.2); */
+	background: rgba(191, 182, 159, 0.445);
+	content: '';
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.teacher:hover .teacher_image a::after
+{
+	visibility: visible;
+	opacity: 1;
+}
+.teacher_body
+{
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 5px;
+}
+.teacher_title a
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #44425a;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.teacher_title a:hover
+{
+	color: #ff8a00;
+}
+.teacher_subtitle
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #6c6a74;
+	margin-top: 1px;
+}
+.teacher_social
+{
+	margin-top: 24px;
+}
+.teacher_social ul li
+{
+	display: inline-block;
+}
+.teacher_social ul li:not(:last-child)
+{
+	margin-right: 24px;
+}
+.teacher_social ul li a i
+{
+	font-size: 17px;
+	color: #ff6600;
+}
+.teachers_button
+{
+	margin-top: 18px;
+}
+
+
+
+/*** Get estimate Start ***/
+.contact-detail::before {
+    position: absolute;
+    content: "";
+    height: 50%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(210, 243, 235, 1), rgba(230, 250, 245, .3)), url(../img/background.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.contact-map {
+    background: #26d48c;
+}
+
+.contact-form {
+    background: #26d48c;
+}
+
+/*** Get Escimate End ***/
+
+
+
+
+
+
+
 /*********************************
 8. Milestones
 *********************************/
