@@ -1006,14 +1006,20 @@ section
 	background-position: center center;
 
 }
-.home_background
+/* .home_background
 {
+	background-image: url(images/img/content/aboutus.png);
+	background-size: cover;
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-}
+	height: 100px;
+} */
+
+
+
+
 
 .home_container_main
 {
@@ -1112,7 +1118,17 @@ section
 {	
 	top: 215px;
 	width: 100%;
-	height: 530px;
+	height: 500px;
+
+    background-image: url(/images/img/cleaning.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+	background-position: top 100px right center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home_container_about
 {
