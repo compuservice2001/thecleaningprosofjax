@@ -43,7 +43,9 @@
 	.contact_content
 	{
 		width: 100%;
-		padding-top: 95px;
+		/* padding-top: 95px; */
+		padding-top: 0px;
+
 		padding-left: 45px;
 	}
 }
@@ -172,7 +174,7 @@
 	}
 	.featured
 	{
-		padding-bottom: 60px;
+		padding-bottom: 0px;
 	}
 	.featured_container
 	{
@@ -218,8 +220,8 @@
 	}
 	.contact_content
 	{
-		padding-left: 57px;
-		padding-right: 57px;
+		padding-left: 0px;
+		padding-right: 0px;
 		padding-bottom: 50px;
 	}
 	.contact_name_col
@@ -328,6 +330,10 @@
 	{
 		font-size: 20px;
 	}
+
+	h1{font-size: 25px;
+		font-weight: 700;}
+	
 	.section_title h2
 	{
 		font-size: 20px;
